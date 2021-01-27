@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Como hacerlo es un sitio que simplifica la busqueda de tutoriales cortos, detallados y claros de todo tipo, donde se separan por secciones principales.">
+    <meta name="author" content="Isai Tapia, comohacerlo72@gmail.com">
+    <meta name="keywords" content="tutoriales, videos, tutoriales cortos">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Cómo hacerlo</title>
+    <!--STYLE-->
+    <link rel= "stylesheet" href="inicio.css">
+    <!--ICONS-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <!--FONTS-->
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&display=swap" rel="stylesheet">
+    <!--ICONO-->
+    <link rel="icon" href="images/Logo_png.ico">
+</head>
+<body>
+    <header>
+        <div class="header">
+            <div class="header-division">
+                <div class="logo">
+                    <a href="index">
+                        <img src="images/Logo_png.png"/>
+                    </a>
+                </div>
+                <div class="nav">
+                    <nav class="nav-container">
+                        <ul class="ul-container">
+                            <a href="educacion" class="li-nav">
+                                <p>Educación</p>
+                            </a>
+                            <a href="entretenimiento" class="li-nav">
+                                <p>Entretenimiento</p>
+                            </a>
+                            <a href="hogar" class="li-nav">
+                                <p>Hogar</p>
+                            </a>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="icons">
+                    <div class="space-icon">
+                        <a id="lupa" class="fas fa-search"></a>
+                        <input id="input-search" type="text" placeholder="Buscar tutorial" autocomplete="off"/>
+                    </div>
+                    <div id="main" class="main">
+                        <i class="fas fa-bars"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <ul id="box-filter" class="box-filter">
+            <!--EDUCACION-->
+            <li><a href="redes">pitagoras</a></li>
+            <li><a href="redes">html</a></li>
+            <li><a href="redes">aprender idiomas</a></li>
+            <li><a href="redes">hacer letra cursiva</a></li>
+            <li><a href="redes">como crear una pagina web</a></li>
+            <li><a href="redes">como jugar ajedrez</a></li>
+            <li><a href="redes">ingles</a></li>
+            <li><a href="redes">frances</a></li>
+            <li><a href="redes">doblar pantalones</a></li>
+            <li><a href="redes">como hacer un mapa conceptual</a></li>
+            <!--ENTRETENIMIENTO-->
+            <li><a href="redes">armar cubo rubik</a></li>
+            <li><a href="redes">editar fotos</a></li>
+            <li><a href="redes">custom de sneakers</a></li>
+            <li><a href="redes">como patinar</a></li>
+            <li><a href="redes">como hacer dominadas</a></li>
+            <li><a href="redes">pintar sombras</a></li>
+            <li><a href="redes">jugadas de basketball</a></li>
+            <li><a href="redes">tocar guitarra</a></li>
+            <li><a href="redes">tocar piano</a></li>
+            <li><a href="redes">hacer lettering</a></li>
+            <!--HOGAR-->
+            <li><a href="redes">como hacer taquitos</a></li>
+            <li><a href="redes">mascarilla</a></li>
+            <li><a href="redes">maquillaje</a></li>
+            <li><a href="redes">carpinteria</a></li>
+            <li><a href="redes">doblar pantalones</a></li>
+            <li><a href="redes">blanquear dientes</a></li>
+            <li><a href="redes">ordenar un escritorio</a></li>
+            <li><a href="redes">peinados</a></li>
+        </ul>
+    </header>
+    <div id="popup-main" class="popup-main">
+        <div class="container-popup-main">
+            <a href="educacion" class="popup-btn">
+                <p>Educación</p>
+            </a>
+            <a href="entretenimiento" class="popup-btn">
+                <p>Entretenimiento</p>
+            </a>
+            <a href="hogar" class="popup-btn">
+                <p>Hogar</p>
+            </a>
+        </div>
+    </div>
+
+    <script src="js/filter.js"></script>
+    <script src="js/popupinicio.js"></script>
+
+    <section class="box-container-reciente">
+        <div class="container-reciente">
+            <div class="box-reciente">
+                <div class="title-reciente">
+                    <h1>Vídeo más reciente</h1>
+                </div>
+                <a href="#" class="btn-reciente">
+                    <div class="img-reciente">
+                        <img src="images/miniatura.png"/>
+                    </div>
+                    <div class="reciente-information">
+                        <h4>Título del vídeo</h4>
+                        <p>Canal del creador</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+    <section class="container-seccion">
+        <div class="container-box-seccion">
+            <div class="title-seccion">
+                <a href="educacion"><h1>Educación</h1></a>
+            </div>
+            <div class="division-box-seccion">
+                <a href="#" class="box-video-seccion">
+                    <div class="video-seccion">
+                        <img class="fit" src="images/miniatura_cel.png"/>
+                    </div>
+                    <div class="information-video-seccion">
+                        <h4>Título del vídeo</h4>
+                        <p>Canal del creador</p>
+                    </div>
+                </a>
+                <a href="#" class="box-video-seccion">
+                    <div class="video-seccion">
+                        <img src="images/miniatura.png"/>
+                    </div>
+                    <div class="information-video-seccion">
+                        <h4>Título del vídeo</h4>
+                        <p>Canal del creador</p>
+                    </div>
+                </a>
+                <a href="#" class="box-video-seccion">
+                    <div class="video-seccion">
+                        <img src="images/miniatura.png"/>
+                    </div>
+                    <div class="information-video-seccion">
+                        <h4>Título del vídeo</h4>
+                        <p>Canal del creador</p>
+                    </div>
+                </a>
+                <a href="#" class="box-video-seccion">
+                    <div class="video-seccion">
+                        <img src="images/miniatura.png"/>
+                    </div>
+                    <div class="information-video-seccion">
+                        <h4>Título del vídeo</h4>
+                        <p>Canal del creador</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="container-box-seccion">
+            <div class="title-seccion">
+                <a href="entretenimiento"><h1>Entretenimiento</h1></a>
+            </div>
+            <div class="division-box-seccion">
+                <a href="#" class="box-video-seccion">
+                    <div class="video-seccion">
+                        <img src="images/miniatura.png"/>
+                    </div>
+                    <div class="information-video-seccion">
+                        <h4>Título del vídeo</h4>
+                        <p>Canal del creador</p>
+                    </div>
+                </a>
+                <a href="#" class="box-video-seccion">
+                    <div class="video-seccion">
+                        <img src="images/miniatura.png"/>
+                    </div>
+                    <div class="information-video-seccion">
+                        <h4>Título del vídeo</h4>
+                        <p>Canal del creador</p>
+                    </div>
+                </a>
+                <a href="#" class="box-video-seccion">
+                    <div class="video-seccion">
+                        <img src="images/miniatura.png"/>
+                    </div>
+                    <div class="information-video-seccion">
+                        <h4>Título del vídeo</h4>
+                        <p>Canal del creador</p>
+                    </div>
+                </a>
+                <a href="#" class="box-video-seccion">
+                    <div class="video-seccion">
+                        <img src="images/miniatura.png"/>
+                    </div>
+                    <div class="information-video-seccion">
+                        <h4>Título del vídeo</h4>
+                        <p>Canal del creador</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="container-box-seccion">
+            <div class="title-seccion">
+                <a href="hogar"><h1>Hogar</h1></a>
+            </div>
+            <div class="division-box-seccion">
+                <a href="#" class="box-video-seccion">
+                    <div class="video-seccion">
+                        <img src="images/miniatura.png"/>
+                    </div>
+                    <div class="information-video-seccion">
+                        <h4>Título del vídeo</h4>
+                        <p>Canal del creador</p>
+                    </div>
+                </a>
+                <a href="#" class="box-video-seccion">
+                    <div class="video-seccion">
+                        <img src="images/miniatura.png"/>
+                    </div>
+                    <div class="information-video-seccion">
+                        <h4>Título del vídeo</h4>
+                        <p>Canal del creador</p>
+                    </div>
+                </a>
+                <a href="#" class="box-video-seccion">
+                    <div class="video-seccion">
+                        <img src="images/miniatura.png"/>
+                    </div>
+                    <div class="information-video-seccion">
+                        <h4>Título del vídeo</h4>
+                        <p>Canal del creador</p>
+                    </div>
+                </a>
+                <a href="#" class="box-video-seccion">
+                    <div class="video-seccion">
+                        <img src="images/miniatura.png"/>
+                    </div>
+                    <div class="information-video-seccion">
+                        <h4>Título del vídeo</h4>
+                        <p>Canal del creador</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+    <section class="container-recomendacion">
+        <div class="box-recomendacion">
+            <div class="container-information-recomendacion">
+                <div class="container-text-recomendacion">
+                    <h1>Recomienda un tutorial y lo subiermos al sitio.</h1>
+                </div>
+                <div class="container-i-recomendacion">
+                    <i id="arrow-right" class="fas fa-arrow-alt-circle-right"></i>
+                    <i id="arrow-down" class="fas fa-arrow-alt-circle-down"></i>
+                </div>
+            </div>
+            <form action="recom.php" method="POST" class="container-input-recomendacion">
+                <div class="input-recomendacion">
+                    <div class="tema-recomendacion">
+                        <input id="input-tema" type="text" name="tema" placeholder="Tema del vídeo" autocomplete="off" required/>
+                    </div>
+                    <div class="tema-recomendacion">
+                        <input id="input-link" type="text" name="link" placeholder="Link del vídeo (opcional)" autocomplete="off"/>
+                    </div>
+                </div>
+                <div class="enviar-recomendacion">
+                    <input id="rec-submit" type="submit" name="recomendacion"/>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <script src="js/submit.js"></script>
+
+    <article class="container-terminos">
+        <div class="box-container-terminos">
+            <div class="title-terminos">
+                <h1>Términos de este sitio web:</h1>
+            </div>
+            <ul class="box-list-terminos">
+                <li class="termino">El objetivo es de una busqueda de tutoriales más sencilla.</li>
+                <li class="termino">Por ahora la mayoría de vídeos son para público de habla hispana.</li>
+                <li class="termino">Los vídeos son claros con un tema en específico.</li>
+                <li class="termino">Los vídeos son lo más cortos posibles.</li>
+                <li class="termino">Cada vídeo puesto en la plataforma fue subido con el permiso del creador del mismo.</li>
+                <li class="termino">Los vídeos son tomados de personas externas al sitio web.</li>
+                <li class="termino">Todos los vídeos son direcciones directas al vídeo original.</li>
+            </ul>
+        </div>
+    </article>
+    <footer class="container-footer">
+        <div class="box-footer-top">
+            <div class="container-division-footer">
+                <div class="title-footer">
+                    <h2>Contacto</h2>
+                </div>
+                <div class="container-information-footer">
+                    <div class="container-information-email-footer">
+                        <div class="icons-footer">
+                            <a href="redes"><i class="fab fa-facebook-f"></i></a>
+                            <a href="redes"><i class="fab fa-twitter"></i></a>
+                        </div>
+                        <div class="container-email-footer">
+                            <div class="email-i-footer">
+                                <i class="far fa-envelope"></i>
+                                <p>E-mail:</p>
+                            </div>
+                            <div class="email-footer">
+                                <p>comohacerlo72@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-division-footer">
+                <div class="title-footer">
+                    <h2>Secciones</h2>
+                </div>
+                <div class="container-information-footer">
+                    <div class="container-seccion-footer">
+                        <div class="seccion-footer">
+                            <a href="educacion">Educación</a>
+                        </div>
+                        <div class="seccion-footer">
+                            <a href="entretenimiento">Entretenimiento</a>
+                        </div>
+                        <div class="seccion-footer">
+                            <a href="hogar">Hogar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-division-footer">
+                <div class="title-footer">
+                    <h2>Canales de creadores</h2>
+                </div>
+                <div class="container-information-footer">
+                    <div class="termino-footer">
+                        <a href="creadores">Creadores de los tutoriales.</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="box-footer-bottom">
+            <p>Cómo hacerlo</p>
+        </div>
+    </footer>
+</body>
+</html>

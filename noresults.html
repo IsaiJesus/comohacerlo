@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Isai Tapia, comohacerlo72@gmail.com">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Resultados de la busqueda | Cómo hacerlo</title>
+    <!--STYLE-->
+    <link rel= "stylesheet" href="seccionescss/busqueda.css">
+    <!--ICONS-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <!--FONTS-->
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&display=swap" rel="stylesheet">
+    <!--ICONO-->
+    <link rel="icon" href="images/Logo_png.ico">
+</head>
+<body>
+    <header id="header">
+        <div class="header">
+            <div class="header-division">
+                <div class="logo">
+                    <a href="index">
+                        <img src="images/Logo_png.png"/>
+                    </a>
+                </div>
+                <div class="nav">
+                    <nav class="nav-container">
+                        <ul class="ul-container">
+                            <a href="educacion" class="li-nav">
+                                <p>Educación</p>
+                            </a>
+                            <a href="entretenimiento" class="li-nav">
+                                <p>Entretenimiento</p>
+                            </a>
+                            <a href="hogar" class="li-nav">
+                                <p>Hogar</p>
+                            </a>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="icons">
+                    <div class="space-icon">
+                        <a id="lupa" class="fas fa-search"></a>
+                        <input id="input-search" type="text" placeholder="Buscar tutorial" autocomplete="off"/>
+                    </div>
+                    <div id="main" class="main">
+                        <i class="fas fa-bars"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <ul id="box-filter" class="box-filter">
+            <!--EDUCACION-->
+            <li><a href="redes">pitagoras</a></li>
+            <li><a href="redes">html</a></li>
+            <li><a href="redes">aprender idiomas</a></li>
+            <li><a href="redes">hacer letra cursiva</a></li>
+            <li><a href="redes">como crear una pagina web</a></li>
+            <li><a href="redes">como jugar ajedrez</a></li>
+            <li><a href="redes">ingles</a></li>
+            <li><a href="redes">frances</a></li>
+            <li><a href="redes">doblar pantalones</a></li>
+            <li><a href="redes">como hacer un mapa conceptual</a></li>
+            <!--ENTRETENIMIENTO-->
+            <li><a href="redes">armar cubo rubik</a></li>
+            <li><a href="redes">editar fotos</a></li>
+            <li><a href="redes">custom de sneakers</a></li>
+            <li><a href="redes">como patinar</a></li>
+            <li><a href="redes">como hacer dominadas</a></li>
+            <li><a href="redes">pintar sombras</a></li>
+            <li><a href="redes">jugadas de basketball</a></li>
+            <li><a href="redes">tocar guitarra</a></li>
+            <li><a href="redes">tocar piano</a></li>
+            <li><a href="redes">hacer lettering</a></li>
+            <!--HOGAR-->
+            <li><a href="redes">como hacer taquitos</a></li>
+            <li><a href="redes">mascarilla</a></li>
+            <li><a href="redes">maquillaje</a></li>
+            <li><a href="redes">carpinteria</a></li>
+            <li><a href="redes">doblar pantalones</a></li>
+            <li><a href="redes">blanquear dientes</a></li>
+            <li><a href="redes">ordenar un escritorio</a></li>
+            <li><a href="redes">peinados</a></li>
+        </ul>
+    </header>
+    <div id="popup-main" class="popup-main">
+        <div class="container-popup-main">
+            <a href="educacion" class="popup-btn">
+                <p>Educación</p>
+            </a>
+            <a href="entretenimiento" class="popup-btn">
+                <p>Entretenimiento</p>
+            </a>
+            <a href="hogar" class="popup-btn">
+                <p>Hogar</p>
+            </a>
+        </div>
+    </div>
+    <section id="no-results" class="no-results">
+        <div class="container-no-results">
+            <h1>No se han encontrado resultados de tu busqueda. ):</h1>
+        </div>
+    </section>
+    
+    <script src="js/filter.js"></script>
+    <script src="js/popupinicio.js"></script>
+
+    <footer class="container-footer">
+        <div class="box-footer-top">
+            <div class="container-division-footer">
+                <div class="title-footer">
+                    <h2>Contacto</h2>
+                </div>
+                <div class="container-information-footer">
+                    <div class="container-information-email-footer">
+                        <div class="icons-footer">
+                            <a href="redes"><i class="fab fa-facebook-f"></i></a>
+                            <a href="redes"><i class="fab fa-twitter"></i></a>
+                        </div>
+                        <div class="container-email-footer">
+                            <div class="email-i-footer">
+                                <i class="far fa-envelope"></i>
+                                <p>E-mail:</p>
+                            </div>
+                            <div class="email-footer">
+                                <p>comohacerlo72@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-division-footer">
+                <div class="title-footer">
+                    <h2>Secciones</h2>
+                </div>
+                <div class="container-information-footer">
+                    <div class="container-seccion-footer">
+                        <div class="seccion-footer">
+                            <a href="educacion">Educación</a>
+                        </div>
+                        <div class="seccion-footer">
+                            <a href="entretenimiento">Entretenimiento</a>
+                        </div>
+                        <div class="seccion-footer">
+                            <a href="hogar">Hogar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-division-footer">
+                <div class="title-footer">
+                    <h2>Canales de creadores</h2>
+                </div>
+                <div class="container-information-footer">
+                    <div class="termino-footer">
+                        <a href="creadores">Creadores de los tutoriales.</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="box-footer-bottom">
+            <p>Cómo hacerlo</p>
+        </div>
+    </footer>
+</body>
+</html>
